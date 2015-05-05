@@ -1,0 +1,19 @@
+<h1>Enter person details</h1>
+<%= csrf_meta_tags %>
+<form action="/welcome/test" method="post">
+  First name:<br>
+  <input type="text" name="firstname" id="firstname">
+  <br>
+  Last name:<br>
+  <input type="text" name="lastname" id="lastname">
+  <br>
+  Postcode:<br>
+  <input type="text" name="postcode" id= "postcode">
+  <br><br>
+  <input type="submit" id="submit" value="Submit">
+</form>
+<br>
+
+<% if @errors.length > 0 %>
+<b>Errors:</b> <%= @errors %>
+<% end %>
