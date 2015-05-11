@@ -1,0 +1,7 @@
+deploy:
+  provider: heroku
+  api_key:
+    secure: 3GUVLRKyIhhOotdKDIStYehs/D2IMRS/1JfYzVIWV7owT72tbErmQTxyOeg4u3nMxExPn+geQ6/2wsXj7E7evhWym3UmbE6ZLgmwzuYJ/N6GznGa7UrtBq58G/vQQA6aLbGMe9weC9nUSBXRs5Ga+2AA/OOfRAmESypdKRrOE5w=
+  app: shielded-reaches-3114
+  on:
+    repo: NickDevetak/my_app
